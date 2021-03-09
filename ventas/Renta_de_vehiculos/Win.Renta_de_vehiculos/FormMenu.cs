@@ -85,5 +85,19 @@ namespace Win.Renta_de_vehiculos
         {
 
         }
+
+        private void facturaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var formFactura = new FormFactura();
+            formFactura.MdiParent = this;
+            formFactura.Show();
+        }
+
+        private void contactoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var formContacto = new FormContacto();
+            formContacto.MdiParent = this;
+            formContacto.Show();
+        }
     }
 }
